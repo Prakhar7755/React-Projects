@@ -1,0 +1,16 @@
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+body {
+  background-color: rgb(130, 185, 233);
+}
+
+.btn {
+  border: 2px solid black !important;
+  width: 250px !important;
+}
