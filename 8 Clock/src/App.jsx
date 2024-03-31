@@ -2,12 +2,12 @@ import React, { useState } from "react";
 import "./App.css";
 
 const App = () => {
-  let time = new Date().toLocaleTimeString();
+  let time = new Date().toLocaleString();
 
   const [currTime, setCurrTime] = useState(time);
 
   setInterval(() => {
-    time = new Date().toLocaleTimeString();
+    time = new Date().toLocaleString();
     setCurrTime(time);
   }, 1000);
 
